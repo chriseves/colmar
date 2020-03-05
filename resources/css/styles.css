@@ -29,7 +29,6 @@ header {
 
 .school--name {
     margin: 0;
-    padding-top: 20px;
     text-transform: uppercase;
     color: slategray;
     font-size: 20px;
@@ -60,3 +59,29 @@ nav a {
     padding-left: 12px;
     margin: 0;
 }
+
+/* banner section */
+.banner {
+    width: 100%;
+    overflow: hidden;
+    background-color: lightgray;
+}
+
+.banner img {
+    max-width: 60%;
+    height: auto;
+    display: inline-block;
+    padding: 32px 24px;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+/* middle section */

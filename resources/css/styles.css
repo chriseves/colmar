@@ -75,9 +75,23 @@ nav a {
     float: left;
 }
 
+.banner-text {
+    margin-top: 200px;
+    color: dimgray;
+    text-align: center;
+    padding-right: 24px;
+    }
 
+.learn {
+    font-weight: bold;
+    }
 
-
+.start-here {
+    color: white;
+    background-color: dimgray;
+    padding: 8px 100px;
+    text-decoration: none;
+}
 
 
 

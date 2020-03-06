@@ -137,9 +137,30 @@ nav a {
 }
 
 .box-right {
-    background-color: red;
+    background-color: snow;
+    padding-top: 32px;
+    padding-left: 16px;
     width: 40%;
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
+    border-left: 1px solid lightgray;
 }
 
+.box-right img {
+    width: 35%;
+    height: auto;
+    float: left;
+    padding-right: 24px;
+}
+
+.orientation {
+    display: inline-block;
+    color: dimgray;
+    padding-bottom: 16px;
+    border-bottom: 2px solid lightgray;
+}
+
+.read-more {
+    text-decoration: none;
+    color: cornflowerblue;
+}

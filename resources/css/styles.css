@@ -100,7 +100,46 @@ nav a {
 }
 
 
+/* information section */
 
+.information {
+    background-color: snow;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+}
 
+.box {
+    padding: 32px 24px;
+    max-width: 60%;
+}
 
-/* middle section */
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.box h1 {
+    color: dimgray;
+    text-align: left;
+}
+
+.box .text {
+    color: dimgray;
+    font-size: 16px;
+    width: 95%;
+}
+
+.box .author {
+    color: dimgray;
+    font-size: 12px;
+    padding-top: 32px;
+}
+
+.box-right {
+    background-color: red;
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+}
+

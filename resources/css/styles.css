@@ -218,8 +218,7 @@ nav a {
 .subject {
     background-color: snow;
     flex: 1;
-    height: 300px;
-    border: red solid 1px;
+    height: auto;
     margin-bottom: 32px;
 }
 
@@ -232,3 +231,27 @@ nav a {
     max-width: 100%;
     height: auto;
 }
+
+.subject h3 {
+    color: dimgray;
+    padding-left: 16px;
+    margin-top: 0px;
+    padding-top: 16px;
+    margin-bottom: 0px;
+}
+
+.subject .text1 {
+    color: dimgray;
+    padding-left: 16px;
+    margin-top: 0px;
+    padding-top: 8px;
+}
+
+.subject .text {
+    color: dimgray;
+    padding-left: 16px;
+    margin-top: 0px;
+    padding-top: 8px;
+    padding-bottom: 24px;
+}
+

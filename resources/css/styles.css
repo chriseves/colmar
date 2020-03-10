@@ -255,3 +255,104 @@ nav a {
     padding-bottom: 24px;
 }
 
+/* thesis section */
+
+.thesis-header {
+    color: dimgray;
+    background-color: snow;
+    padding: 32px 0px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.thesis {
+    width: 100%;
+    overflow: hidden;
+    background-color: snow;
+    margin-top: 0px;
+    display: flex;
+    padding-bottom: 32px;
+    border-bottom: solid 2px lightgray;
+}
+
+.thesis-left {
+    max-width: 60%;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    float: left;
+}
+
+.thesis video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.thesis h3 {
+    color: dimgray;
+    padding-bottom: 0px;
+}
+
+.thesis .text {
+    color: dimgray;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.thesis img {
+    width: 35%;
+    height: auto;
+    padding: 16px 16px 16px 16px;
+    float: left;
+}
+
+.thesis-right {
+    max-width: 100%;
+}
+
+.thesis-right .fisma {
+    width: 100%;
+    background-color: lightgray;
+    display: inline-block;
+   
+    
+}
+
+.thesis-right .now {
+    width: 100%;
+    display: inline-block;
+}
+
+.fisma img {
+    width: 35%;
+}
+
+.thesis-right h3 {
+    padding-top: 18px;
+}
+
+/* Footer section */
+
+footer {
+    background-color: snow;
+    height: 72px;
+    padding-left: 24px;
+    padding-top: 16px;
+    color: dimgray;
+    font-size: 12px;
+    display: inline-block;
+    width: 100%;
+}
+
+footer nav {
+    float: right;   
+    padding-right: 24px;
+}
+
+footer li a {
+    font-size: 12px;
+    font-weight: bold;
+}
